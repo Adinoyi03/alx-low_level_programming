@@ -1,30 +1,23 @@
-/*
- * File: 9-print_comb.c
- * Auth: Muhammed Abdulrahaman Adinoyi
- */
-
 #include <stdio.h>
-
 /**
- * main - Prints all possible combinations of single-digit numbers.
- *
- * Return: Always 0.
+ * main - printing numbers from 0-9 with commas and space between them
+ * Description: using the main function
+ * this program prints "0, 1, 2, 3, 4, 5, 6, 7, 8, 9"
+ * Return: 0
  */
 int main(void)
 {
-	int num;
+	int c;
 
-	for (num = 0; num <= 9; num++)
+	for (c = 48; c <= 57; c++)
 	{
-		putchar((num % 10) + '0');
-		if (num == 9)
-			continue;
-		
-		putchar(',');
-		putchar(' ');
+		putchar(c);
+		if (c != 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
-
 	putchar('\n');
-
 	return (0);
 }
