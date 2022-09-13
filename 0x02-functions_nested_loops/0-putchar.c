@@ -1,8 +1,8 @@
-/*
- * File: 0-putchar.c
- * Auth: Muhammed Abdulrahaman adinoyi
- *
- */
+/**
+*File: 0-putchar.c
+*Auth: Muhammed Abdulrahaman adinoyi
+*
+*/
 #include "main.h"
 /**
  * main - Prints "_putchar" followed by a new line.
