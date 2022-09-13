@@ -3,7 +3,7 @@
  * Auth: Muhammed Abdulrahaman Adinoyi
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * times_table - Prints the 9 times table, starting with 0.
