@@ -1,21 +1,15 @@
-/*
- * File: 1-isdigit.c
- * Auth: Muhammed Abdulrahaman Adinoyi
- */
-
-#include "main.h"
-
+#include "holberton.h"
 /**
- * _isdigit - Checks for a digit (0-9).
- * @c: The number to be checked.
- *
- * Return: 1 if the number is a digit, 0 otherwise.
+ * _isdigit - function that checks for uppercase character.
+ * @c: the int for the paramaters of my function
+ * Return: 0
  */
 int _isdigit(int c)
 {
-	if (c >= '0' && c <= '9')
-		return (1);
-
+	if (c >= 48 && c <= 57)
+	{
+	return (1);
+	}
 	else
-		return (0);
+	return (0);
 }
